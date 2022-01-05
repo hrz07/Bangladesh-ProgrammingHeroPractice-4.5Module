@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-heading{
+    text-align: center;
+    color:green;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.half-side{
+    width: 50%;
+    text-align: justify; 
+    margin-left: 120px;   
+}
+
+.half-side img{
+    width: 350px;
+}
+.top-btn{
+    padding: 10px 21px;
+    color: white;
+    background: linear-gradient(20deg,green,red);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.divisions-container{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.divisions-section h1{
+    text-align: center;
+}
+
+.division{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    box-shadow: 5px 5px 18px gray;
+    border-radius: 7px;
+    align-items: center;
+}
+.division p{
+    text-align: justify;
+    padding: 5px 15px;
+}
+.division img{
+    width: 100%;
+}
+
+.division-details{
+    padding: 7px 18px;
+    background: rgb(37, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 8px auto;
+}
+
+hr{
+    margin: 60px 0;
+}
